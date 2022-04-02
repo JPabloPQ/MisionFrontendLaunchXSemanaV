@@ -1,0 +1,41 @@
+body{
+  color: #444444;
+  background-color: #f4f4f4;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+body#panel{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+}
+
+#headerNavbar{
+  background: #DBD9DE;
+  -webkit-box-shadow: 0px 5px 20px -6px rgba(31,31,31,0.64); 
+  box-shadow: 0px 5px 20px -6px rgba(31,31,31,0.64);
+
+}
+#carousel{
+  -webkit-box-shadow: -2px 5px 20px 2px rgba(31,31,31,0.58); 
+box-shadow: -2px 5px 20px 2px rgba(31,31,31,0.58);  
+}
+#formSection{
+  background-color: #DFDCF5;
+  box-shadow: 1px 11px 30px 0px rgba(0, 0, 0, 0.27) inset;
+}
+.sectionsStyles{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+h1{
+  font-size: 60px !important;
+  padding-bottom: 40px;
+  font-family: 'Lobster Two', cursive;
+  font-style: italic;
+}
